@@ -16,12 +16,9 @@
         color: #ffffff;
     }
 
-    .logo-web {
-        color: #2196F3;    }
+    .logo-web {        color: #2196F3;    }
+    .logo-studio {        color: #000000;    }
 
-    .logo-studio {
-        color: #000000;    }
+    .logo:hover, .logo:focus { color: #2196F3;        }
+    .logo-studio:hover, .logo-studio:focus { color: #2196F3;    }
 
-    .logo:hover,
-    .logo:focus {
-        color: #2196F3;    }
