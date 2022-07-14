@@ -1,2 +1,1 @@
-# test
-https://komanator.github.io/test/
+Зробив по іншому...
