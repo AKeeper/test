@@ -19,7 +19,7 @@
     .logo-web {        color: green    }
     .logo-studio {        color: #000000;    }
 
-    a:hover span  {color: #2196F3;}
+    a:hover span {color: #2196F3; }
 
     /* .logo:hover, .logo:focus { color: #2196F3;        }
     .logo-studio:hover, .logo-studio:focus { color: #2196F3;    } */
