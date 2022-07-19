@@ -5,13 +5,32 @@
 
         background-color: #E5E5E5;
     }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 25px 15px;
+    }
+
+    .list {list-style: none;}
+    .noline {text-decoration: none;}
 /* ========================= ГОЛОВА ========================= */
-.header {
+.header-container {
     display: flex;
     align-items: center;
+    
 }
 
+.navsite-list {
+    display: flex;
+}
+    .link {
+        margin-right: 50px;
+    }
+
     .logo {
+        margin-right: 93px;
+
         font-family: "raleway", sans-serif;
         font-weight: 700;
         font-size: 26px;
