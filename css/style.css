@@ -5,6 +5,11 @@
 
         background-color: #E5E5E5;
     }
+/* ========================= ГОЛОВА ========================= */
+.header {
+    display: flex;
+    align-items: center;
+}
 
     .logo {
         font-family: "raleway", sans-serif;
@@ -16,13 +21,13 @@
         color: #ffffff;
     }
 
-    .logo-web {        color: green    }
+    .logo-web {        color: #2196F3    }
     .logo-studio {        color: #000000;    }
 
-    a:hover span {color: #2196F3; }
+    /* a:hover span {color: #2196F3; } */
 
-    /* .logo:hover, .logo:focus { color: #2196F3;        }
-    .logo-studio:hover, .logo-studio:focus { color: #2196F3;    } */
+    .logo:hover, .logo:focus { color: #2196F3;        }
+    .logo-studio:hover, .logo-studio:focus { color: #2196F3;    }
 
     .starwars {
         color: black;
