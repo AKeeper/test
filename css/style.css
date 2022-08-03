@@ -65,6 +65,10 @@
     position: relative;
 }
 .comunity:hover .button-bottom {opacity: 1;}
+.comunity:hover .button-top {
+transform: perspective(500px) rotateX(3turn);
+opacity: 0;
+}
 
     .button-top {
         padding: 15px;
@@ -79,6 +83,9 @@
         border: none;
         border-radius: 5px;
         background-color: lightgreen;
+
+        transition: 1000ms;
+        opacity: 1;
         
     }
     .button-bottom {
@@ -99,6 +106,6 @@
         border-radius: 5px;
         background-color: tomato; 
         
-        transition: opacity 1000ms;
+        transition: opacity 1000ms 1000ms;
     }
 
