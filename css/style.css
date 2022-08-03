@@ -61,8 +61,12 @@
     display: flex;
     justify-content: center;
 }
+.comunity {
+    position: relative;
+}
+.comunity:hover .button-bottom {opacity: 1;}
 
-    .button {
+    .button-top {
         padding: 15px;
 
         text-align: center;
@@ -75,8 +79,26 @@
         border: none;
         border-radius: 5px;
         background-color: lightgreen;
-
-        box-shadow: 8px 8px 0px 0px gray;
         
+    }
+    .button-bottom {
+        position: absolute;
+        top: 0;
+        opacity: 0;
+
+        padding: 15px;
+
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.2;
+
+        width: 100px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: tomato; 
+        
+        transition: opacity 1000ms;
     }
 
