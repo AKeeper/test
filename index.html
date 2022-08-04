@@ -19,15 +19,10 @@
     
     <section class="section">
 
-        <div class="comunity">
-
-            <div class="button-top">
-                <p>Васін</p>
-            </div>
-            <div class="button-bottom">
-                <p>Квасін!</p>
-            </div>
-        </div>
+        
+            <button data-modal-open type="button" class="button-top">
+                <p>Рус, нажми!</p>
+            </button>
     </section>
 
     <footer class="footer">
@@ -35,6 +30,14 @@
         <a href="./index.html" class="logo"><span class="logo-web">Web</span><span>Studio</span></a>
     </footer>
 
+    <div data-modal class="container-backdrop is-hidden">
+        <div class="container-modal">
+            <button data-modal-close type="button" class="container-modal-btn">x</button>
+            <p class="container-modal-text">Ну ти і лапух!!!</p>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
