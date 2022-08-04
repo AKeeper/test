@@ -121,6 +121,8 @@
             right: 8px;
         }
         .container-modal-text {
+            text-align: center;
+
             font-weight: 900;
             font-size: 14px;
             line-height: 16px;
