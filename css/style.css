@@ -71,12 +71,13 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    width: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     border-radius: 5px;
     border: none;
-
     background-color: tomato;
     color: #000000;
 }
